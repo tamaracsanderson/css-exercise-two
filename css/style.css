@@ -1,6 +1,9 @@
 body {
-  background-color: #ff0000;
-  color: #0000FF;
+  background-color: #FFFFFF;
+  color: #000000;
+/* Changed color to standard black and white for readability */
+  font-size: 16px;/* Added body font size */
+  line-height: 1.2; /* Made line height more readable */
 }
 
 nav {
@@ -8,6 +11,22 @@ nav {
   float: left;
   position: fixed;
   width: 100%;
+  font-size: 1.5em; /* Added nav font size to be 1.5x of body font size */
+  font-weight: bolder; /* Added font weight to make it bolder */
+}
+
+h1 {
+  font-size: 2em; /* Added nav font size to be 2x of body font size */
+  font-weight: bolder; /* Added font weight to make it bolder */
+}
+
+h3 {
+  font-size: 1.3em; /* Added H3 font size to be 1.3x of body font size */
+  font-weight: bolder; /* Added font weight to make it bolder */
+}
+
+p {
+  font-size: 1em; /* Added paragraph font size to be = to body font size */
 }
 
 .logo {
@@ -36,6 +55,21 @@ ul {
   list-style-type: none;
   float: right;
 }
+
+a {
+  text-decoration: none
+}
+/* Links do not have underline */
+
+a:hover {
+  color:#BB002D;
+  }
+  /* Links turn red when moused over */
+
+a:active {
+  color:#0070BD;
+  }
+  /* Links turn blue when selected */
 
 li {
   float: right;
